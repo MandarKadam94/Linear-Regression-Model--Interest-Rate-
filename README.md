@@ -4,21 +4,26 @@ We are creating Linear Regression Model for Loan Interest Rate.
 ## Linear Regression  Model ##
 
 
-#-------Data Preperation-------#
+# Data Preperation #
 
 
 # We are taking real life example for these purpose, I have used CSV file for these purpose.
 
 setwd('C:/Users/mandar kadam/Desktop/R data scientist/Excel Data')
+
 getwd()
+
 loan=read.csv("loans data.csv",stringsAsFactors = FALSE)
-loan
+
 library(dplyr)
+
 getwd()
+
 loan=read.csv("loans data.csv",stringsAsFactors = FALSE)
+
 glimpse(loan)
 
-#-----Data Cleaning and Manipulation--------#
+# Data Cleaning and Manipulation #
 
 
 loan=loan%>%
