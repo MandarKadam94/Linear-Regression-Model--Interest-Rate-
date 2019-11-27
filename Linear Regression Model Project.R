@@ -11,7 +11,6 @@ getwd()
 loan=read.csv("loans data.csv",stringsAsFactors = FALSE)
 library(dplyr)
 getwd()
-loan=read.csv("loans data.csv",stringsAsFactors = FALSE)
 glimpse(loan)
 
 # Data Cleaning and Manipulation #
